@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>嵌入式 on CQUT-Embedded-Lab&#39;s blog</title>
-    <link>https://CQUT-Embedded-Lab.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/</link>
-    <description>Recent content in 嵌入式 on CQUT-Embedded-Lab&#39;s blog</description>
+    <title>stm32 on CQUT-Embedded-Lab&#39;s blog</title>
+    <link>https://CQUT-Embedded-Lab.github.io/tags/stm32/</link>
+    <description>Recent content in stm32 on CQUT-Embedded-Lab&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
     <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://CQUT-Embedded-Lab.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://CQUT-Embedded-Lab.github.io/tags/stm32/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

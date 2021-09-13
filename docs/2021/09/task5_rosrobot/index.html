@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <title>
-        CQUT-Embedded-Lab&#39;s blog</title>
+        任务书5—ROS机器人基础 - CQUT-Embedded-Lab&#39;s blog
+      </title>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport"
@@ -19,25 +20,29 @@
     <meta http-equiv="window-target" content="_top" />
     
     
-    
+    <meta name="description" content="ROS机器人任务书 一、任务书 1、任务描述 搭建基础ROS环境，实现数据与视频传输 参考资料： AUTOLABOR资料 2、要求 Ubuntu版本：18" />
     <meta name="generator" content="Hugo 0.81.0 with theme pure" />
-    <title>CQUT-Embedded-Lab&#39;s blog</title>
+    <title>任务书5—ROS机器人基础 - CQUT-Embedded-Lab&#39;s blog</title>
     
-    <link rel="alternate" type="application/rss+xml" href="https://CQUT-Embedded-Lab.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/index.xml" title="CQUT-Embedded-Lab's blog" />
     
     <link rel="stylesheet" href="https://CQUT-Embedded-Lab.github.io/css/style.min.5b2e5b0a6898924791dc0a6c084f9c84c3c761d01bf573dd3bcbf9c5ebc4231f.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-    <meta property="og:title" content="嵌入式" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://CQUT-Embedded-Lab.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/" />
+    <meta property="og:title" content="任务书5—ROS机器人基础" />
+<meta property="og:description" content="ROS机器人任务书 一、任务书 1、任务描述 搭建基础ROS环境，实现数据与视频传输 参考资料： AUTOLABOR资料 2、要求 Ubuntu版本：18" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://CQUT-Embedded-Lab.github.io/2021/09/task5_rosrobot/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-13T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-09-13T00:00:00&#43;00:00" />
 
-<meta itemprop="name" content="嵌入式">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="嵌入式"/>
-<meta name="twitter:description" content=""/>
+<meta itemprop="name" content="任务书5—ROS机器人基础">
+<meta itemprop="description" content="ROS机器人任务书 一、任务书 1、任务描述 搭建基础ROS环境，实现数据与视频传输 参考资料： AUTOLABOR资料 2、要求 Ubuntu版本：18"><meta itemprop="datePublished" content="2021-09-13T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-09-13T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="763">
+<meta itemprop="keywords" content="stm32,ROS-melodic,Ubuntu18.04," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="任务书5—ROS机器人基础"/>
+<meta name="twitter:description" content="ROS机器人任务书 一、任务书 1、任务描述 搭建基础ROS环境，实现数据与视频传输 参考资料： AUTOLABOR资料 2、要求 Ubuntu版本：18"/>
 
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -275,43 +280,252 @@ function tagCloud(where, min, max) {
 
     
     
-<main class="main" role="main">
-    <article class="article article-categories article-type-list" itemscope="">
-        <header class="article-header">
-            <h1 itemprop="name" class="hidden-xs">嵌入式</h1>
-            <p class="text-muted hidden-xs">Total 2 categories</p>
-            <nav role="navigation" id="nav-main" class="okayNav">
-                <ul>
-                    <li><a href="/categories/">All</a></li>
-                    <li><a href="https://CQUT-Embedded-Lab.github.io/categories/labtask/">LabTask</a></li>
-                    <li><a href="https://CQUT-Embedded-Lab.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/">嵌入式</a></li>
-                </ul>
-            </nav>
-        </header>
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2021/09/task5_rosrobot/"
+    >任务书5—ROS机器人基础</a
+  >
+</h1>
+
+      <div class="article-meta">
         
-        <div class="article-body">
-            <div class="panel panel-default b-no">
-                <div class="panel-heading" role="tab">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapse62f8a8e20d03835fb846c1e03058cccb" aria-expanded="true">
-                            <i class="icon icon-folder text-active"></i><i class="icon icon-folder-open text"></i>嵌入式
-                        </a>
-                        <small class="text-muted">(Total1 articles)</small>
-                    </h4>
-                </div>
-                <div id="collapse62f8a8e20d03835fb846c1e03058cccb" class="panel-collapse collapse in" role="tabpanel"
-                    aria-labelledby="heading62f8a8e20d03835fb846c1e03058cccb">
-                    <div class="panel-body">
-                        <div class="collection"><a href="https://CQUT-Embedded-Lab.github.io/2021/09/the-zen-of-the-labyrinth-car/" class="collection-item" itemprop="url" target="_blank">
-    <time datetime="2021-09-13 00:00:00 &#43;0000 UTC" itemprop="datePublished" style="margin-right: 5px;">2021-09-13
-    </time>迷宫小车之禅
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://CQUT-Embedded-Lab.github.io/2021/09/task5_rosrobot/" class="article-date">
+  <time datetime="2021-09-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-09-13</time>
 </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/labtask/"> LabTask </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/stm32/"> stm32 </a>
+    <a class="article-tag-link" href="/tags/ros-melodic/"> ROS-melodic </a>
+    <a class="article-tag-link" href="/tags/ubuntu18.04/"> Ubuntu18.04 </a>
+  </span>
+
+	<span class="article-read hidden-xs">
+	    <i class="icon icon-eye-fill" aria-hidden="true"></i>
+	    <span id="busuanzi_container_page_pv">
+			<span id="busuanzi_value_page_pv">0</span>
+		</span>
+	</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 763 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 2 minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <h1 id="ros机器人任务书">ROS机器人任务书</h1>
+<p><img src="https://markdown-1305234562.cos.ap-chongqing.myqcloud.com/lab/2021/09/20210913163548.jpg" alt="image"></p>
+<h2 id="一任务书">一、任务书</h2>
+<h3 id="1任务描述">1、任务描述</h3>
+<ul>
+<li>搭建基础ROS环境，实现<strong>数据</strong>与<strong>视频</strong>传输</li>
+<li>参考资料：
+<ul>
+<li><a href="http://www.autolabor.com.cn/book/ROSTutorials/">AUTOLABOR资料</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="2要求">2、要求</h3>
+<ul>
+<li>Ubuntu版本：18.04，ROS版本：melodic</li>
+<li>实现机器人与数据与视频传输</li>
+<li>调用接口实现基于激光雷达的SLAM</li>
+</ul>
+<h3 id="3完成时间">3、完成时间</h3>
+<ul>
+<li>1-2周</li>
+</ul>
+<h2 id="二具体计划">二、具体计划</h2>
+<h3 id="1阶段1">1、阶段1</h3>
+<h4 id="11工作安排">1.1、工作安排</h4>
+<ul>
+<li>搭建Ubuntu虚拟机及ROS环境</li>
+<li>参考资料：
+<ul>
+<li>虚拟机安装流程：略</li>
+<li><a href="http://wiki.ros.org/melodic/Installation/Ubuntu">ROS-melodic官方安装流程</a></li>
+<li><a href="http://www.autolabor.com.cn/book/ROSTutorials/chapter1/13-rosji-cheng-kai-fa-huan-jing-da-jian.html">HelloWorld例程</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="12期望结果">1.2、期望结果</h4>
+<ul>
+<li>使用VMWarePlayer与Ubuntu18.04镜像，搭建虚拟机环境</li>
+<li>在Ubuntu18.04上搭建ROS-melodic系统</li>
+<li>实现HelloWorld例程</li>
+</ul>
+<h4 id="13建议完成时间">1.3、建议完成时间</h4>
+<ul>
+<li>+1day</li>
+</ul>
+<h3 id="2阶段2">2、阶段2</h3>
+<h4 id="21工作安排">2.1、工作安排</h4>
+<ul>
+<li>了解ROS架构及文件系统</li>
+</ul>
+<h4 id="22期望结果">2.2、期望结果</h4>
+<ul>
+<li><a href="http://www.autolabor.com.cn/book/ROSTutorials/chapter1.html">参考资料第一章</a></li>
+</ul>
+<h4 id="23建议完成时间">2.3、建议完成时间</h4>
+<ul>
+<li>+2day</li>
+</ul>
+<h3 id="3阶段3">3、阶段3</h3>
+<h4 id="31工作安排">3.1、工作安排</h4>
+<ul>
+<li>掌握Pub与Sub的通信模式，实现数据传输</li>
+</ul>
+<h4 id="32期望结果">3.2、期望结果</h4>
+<ul>
+<li><a href="http://www.autolabor.com.cn/book/ROSTutorials/di-2-zhang-ros-jia-gou-she-ji.html">参考资料第二章</a></li>
+</ul>
+<h4 id="33建议完成时间">3.3、建议完成时间</h4>
+<ul>
+<li>+3day</li>
+</ul>
+<h3 id="4阶段4">4、阶段4</h3>
+<h4 id="41工作安排">4.1、工作安排</h4>
+<ul>
+<li>了解usb_cam包，实现视频传输</li>
+</ul>
+<h4 id="42期望结果">4.2、期望结果</h4>
+<ul>
+<li>了解usb_cam发布的N种话题及其区别</li>
+<li>使用rosrun image_view观察图像</li>
+<li>使用rostopic测试各节点带宽</li>
+</ul>
+<h4 id="43建议完成时间">4.3、建议完成时间</h4>
+<ul>
+<li>+4day</li>
+</ul>
+<h3 id="5阶段5">5、阶段5</h3>
+<h4 id="51工作安排">5.1、工作安排</h4>
+<ul>
+<li>了解ROS多机通信，实现内网环境下的ROS配置</li>
+</ul>
+<h4 id="52期望结果">5.2、期望结果</h4>
+<ul>
+<li>为树莓派安装Ubuntu18.04及ROS-melodic系统</li>
+<li>完成ROS-Master等配置</li>
+<li>实现主机与子机的通信</li>
+</ul>
+<h4 id="53建议完成时间">5.3、建议完成时间</h4>
+<ul>
+<li>+5day</li>
+</ul>
+<h3 id="6阶段6">6、阶段6</h3>
+<h4 id="61工作安排">6.1、工作安排</h4>
+<ul>
+<li>查找相关资料，实现基于激光雷达的SLAM</li>
+</ul>
+<h4 id="62期望结果">6.2、期望结果</h4>
+<ul>
+<li>了解实验室现存激光雷达的型号</li>
+<li>下载相应的pkg，并运行例程</li>
+<li>输出模拟图像</li>
+</ul>
+<h4 id="63建议完成时间">6.3、建议完成时间</h4>
+<ul>
+<li>+6day</li>
+</ul>
+<h3 id="7阶段7">7、阶段7</h3>
+<h4 id="71工作安排">7.1、工作安排</h4>
+<ul>
+<li>总结项目</li>
+</ul>
+<h4 id="72期望结果">7.2、期望结果</h4>
+<ul>
+<li>输出技术文档一份</li>
+</ul>
+<h4 id="73建议完成时间">7.3、建议完成时间</h4>
+<ul>
+<li>+7day</li>
+</ul>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://CQUT-Embedded-Lab.github.io/2021/09/task5_rosrobot/" title="任务书5—ROS机器人基础" target="_blank" rel="external">https://CQUT-Embedded-Lab.github.io/2021/09/task5_rosrobot/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License: </strong>
+        <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/CQUT-Embedded-Lab" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://CQUT-Embedded-Lab.github.io/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/CQUT-Embedded-Lab" target="_blank"><span class="text-dark">CQUT-Embedded-Lab</span><small class="ml-1x"></small></a></h3>
+        <div>hahaha.</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://CQUT-Embedded-Lab.github.io/2021/09/task6_px4drone/" title="任务书6—PX4无人机"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://CQUT-Embedded-Lab.github.io/2021/09/task4_32omnidirectional-mobile-trolley/"
+                    title="任务书4—32全向移动小车"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone"></div>
         </div>
-    </article>
+    </div>
+</nav>
+
+
 </main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
 <ul class="social-links">
     <li><a href="https://github.com/CQUT-Embedded-Lab" target="_blank" title="github" data-toggle=tooltip data-placement=top >
@@ -387,6 +601,8 @@ function tagCloud(where, min, max) {
         hasInnerContainers: true,
     });
 </script>
+
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   </body>
 </html>

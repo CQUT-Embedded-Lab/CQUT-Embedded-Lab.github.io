@@ -24,6 +24,34 @@
   </url>
   
   <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/categories/labtask/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/tags/mavlink/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/tags/maze/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/tags/omnidirectional/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://CQUT-Embedded-Lab.github.io/posts/</loc>
     <lastmod>2021-09-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,7 +59,84 @@
   </url>
   
   <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/tags/px4/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/tags/python/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/tags/ros-melodic/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/tags/stm32/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://CQUT-Embedded-Lab.github.io/tags/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/tags/ubuntu18.04/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/2021/09/task1_51basic/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/2021/09/task2_32basic/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/2021/09/task3_51maze-cart/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/2021/09/task4_32omnidirectional-mobile-trolley/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/2021/09/task5_rosrobot/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/2021/09/task6_px4drone/</loc>
     <lastmod>2021-09-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -59,6 +164,12 @@
   
   <url>
     <loc>https://CQUT-Embedded-Lab.github.io/series/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://CQUT-Embedded-Lab.github.io/tags/tcp/ip/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
