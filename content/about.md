@@ -39,7 +39,6 @@ author = "causehhc"
 - 通用的内部组网
     - 内网路由器
     - 内网交换机
-    - ~~*science-web*~~
     - QNAP-NAS
     - 工业服务器
     - 实验室官网（开发中）
